@@ -1,8 +1,8 @@
 # from pytest import capfd
 import pytest
 
-from bin.dna import DNA
-from bin.dna import NotDNAError
+from bin.dna.dna import DNA
+from bin.dna.dna import NotDNAError
 
 
 def test_init():

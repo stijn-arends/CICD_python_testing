@@ -1,5 +1,5 @@
 
-from bin.summing import multiple_sum, simple_sum
+from bin.summing.summing import multiple_sum, simple_sum
 
 
 def test_sum():
