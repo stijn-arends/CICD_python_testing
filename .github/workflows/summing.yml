@@ -1,10 +1,6 @@
 name: summing workflow
 
-# on: [push, pull_request]
-on:
-  push:
-    paths:
-      - 'bin/summing/**'
+on: [push, pull_request]
 
 jobs:
   build:
