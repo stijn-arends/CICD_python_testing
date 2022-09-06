@@ -2,6 +2,12 @@ name: dna workflow
 
 on: [push, pull_request]
 
+# Doesn't work for the structure that I am currently using: please refer to the codecov-demo repository for a working example.
+# on:
+#   push:
+#     paths:
+#       - 'bin/dna/**'
+
 jobs:
   build:
     runs-on: ubuntu-latest
