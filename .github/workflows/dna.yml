@@ -1,6 +1,13 @@
 name: dna workflow
 
-on: [push, pull_request]
+# on: [push, pull_request]
+on:
+  push:
+    paths:
+      - 'bin/dna/**'
+  pull:
+    paths:
+      - 'bin/dna/**'
 
 jobs:
   build:
